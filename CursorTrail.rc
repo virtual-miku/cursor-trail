@@ -1,0 +1,4 @@
+#include "src/resource.h"
+
+IDR_BAT_DEFAULT RCDATA "assets\\bat-default.png"
+IDI_APP_ICON ICON "assets\\app-icon.ico"
