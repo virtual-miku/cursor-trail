@@ -1,6 +1,14 @@
+<div align="center">
+
 # Cursor Trail
 
-Overlay Windows native yang membawa cursor trail ke layar desktop Anda.
+<p>Overlay Windows native yang membawa cursor trail ke layar desktop.</p>
+
+[![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](https://isocpp.org)
+[![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://www.microsoft.com/windows)
+[![Win32](https://img.shields.io/badge/Win32-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://learn.microsoft.com/windows/win32/)
+
+</div>
 
 Aplikasi berjalan sebagai executable C++ Win32 x64 tanpa WebView, global hook, atau injection ke proses lain.
 
@@ -24,7 +32,7 @@ Untuk menjalankan binary yang sudah ada tanpa build ulang:
 .\build.ps1
 ```
 
-Prasyarat build: [Visual Studio Build Tools](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2022) dengan workload **Desktop development with C++**, plus Windows SDK. Binary memakai static C++ runtime (`/MT`), sehingga pengguna yang menjalankan `CursorTrail.exe` tidak perlu menginstal Visual Studio maupun runtime tambahan apa pun.
+Prasyarat build: [Visual Studio 2026](https://aka.ms/vs/stable/vs_community.exe) (Community/Professional/Enterprise) atau [Build Tools](https://aka.ms/vs/stable/vs_buildtools.exe) dengan workload **Desktop development with C++**, plus Windows SDK. Binary memakai static C++ runtime (`/MT`), sehingga pengguna yang menjalankan `CursorTrail.exe` tidak perlu menginstal Visual Studio maupun runtime tambahan apa pun.
 
 ## Desain performa
 
